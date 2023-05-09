@@ -1,0 +1,12 @@
+{"d46cefa0-e3e4-4a31-9b3d-375f75c051fe": {
+   "resourceKinds": [{
+      "resourceKindKey": "vSphere World",
+      "adapterKindKey": "VMWARE"
+   }],
+   "modificationTime": 1683639138452,
+   "name": "Powered Off ESXi Hosts",
+   "formula": "${this, metric=summary|total_number_hosts}-${this, metric=summary|number_running_hosts}",
+   "description": "Powered Off ESXi Hosts",
+   "unitId": "",
+   "modifiedBy": "287ed085-c6ca-4255-b69c-956f1665ed51"
+}}
